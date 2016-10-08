@@ -1,0 +1,10 @@
+{
+	"name": "Email Subscription",
+	"description": "Add Email Subscription Box in Sidebar",
+	"version": "1.0",
+	"date": "2016-10-09",
+	"author": "ProThoughts",
+	"author_uri": "http://prothoughts.com",
+	"license": "GPLv2",
+	"min_q2a": "1.6"
+}
