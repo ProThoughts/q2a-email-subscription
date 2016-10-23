@@ -12,7 +12,7 @@ class pt_qa_email_subscription {
 	{
 		$saved = false;
 
-		if (qa_clicked('email_subscription_save_button')) {
+		if (qa_clicked('pt_q2a_email_subscription_save_button')) {
 			// prevent common errors by copying and pasting from Javascript
 			$trimchars = "=;\"\' \t\r\n";
 			qa_opt('pt_q2a_feedburner_sidebar_flag', trim((bool)qa_post_text('pt_q2a_feedburner_sidebar_flag'), $trimchars));
@@ -49,7 +49,7 @@ class pt_qa_email_subscription {
 			'buttons' => array(
 				array(
 					'label' => 'Save Changes',
-					'tags' => 'name="email_subscription_save_button"',
+					'tags' => 'name="pt_q2a_email_subscription_save_button"',
 				),
 			),
 		);
